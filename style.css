@@ -1,0 +1,179 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.hero-img{
+    width: 100%;
+    transform: scale(1.4);
+}
+.tint{
+    background-color: rgba(38, 36, 36, 0.27);
+    position: absolute;
+    background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.8500) 3.000%, rgba(0, 0, 0, 0.8465) 11.08%, rgba(0, 0, 0, 0.8361) 19.17%, rgba(0, 0, 0, 0.8187) 27.25%, rgba(0, 0, 0, 0.7944) 35.33%, rgba(0, 0, 0, 0.7632) 43.42%, rgba(0, 0, 0, 0.7250) 51.50%, rgba(0, 0, 0, 0.6868) 59.58%, rgba(0, 0, 0, 0.6556) 67.67%, rgba(0, 0, 0, 0.6313) 75.75%, rgba(0, 0, 0, 0.6139) 83.83%, rgba(0, 0, 0, 0.6035) 91.92%, rgba(0, 0, 0, 0.6000) 100.0%);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.nav{
+    position: absolute;
+    width: 1219px;
+    height: 120px;
+    align-items: center;
+    top: 6%;
+    left: 50%;
+    display: flex;
+    justify-content: space-between;
+    transform: translate(-50%, -50%);
+}
+.logo{
+    color: red;
+    width: 140px;
+    height: 140px;
+    
+}
+.nav-btn{
+    top: 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+/* .btn-flex{
+    display: flex;
+    gap: 24px;
+} */
+.lang-btn{
+    width: 122px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    font-size: 16px;
+    background-color: #14120F;
+    border: 1px solid rgb(105, 94, 94);
+    color: white;
+    border-radius: 4px;
+    position: relative;
+}
+.login-btn{
+    width: 73px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    font-size: 16px;
+    background-color: #E52313;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.disc{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    margin-top: -16px;
+}
+.desc{
+    font-size: 16px;
+    
+}
+.input-email{
+    width: 320px;
+    height: 56px;
+    padding: 1px 16px;
+    border: 1px solid rgba(211, 211, 211, 0.562);
+    background-color: rgba(169, 169, 169, 0.184);
+    border-radius: 4px;
+    
+}
+.start{
+    width: 179px;
+    height: 60px;
+    background-color: #E50815;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 12px;
+
+    &:hover{
+        background-color: #e50817b3;
+        transition: 0.2s;
+    }
+}
+.get-started{
+    display: flex;
+}
+.input-area{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+.mt{
+    margin-top: 4px;
+}
+
+
+/* Section 2 Begins */
+.container{
+    color: white;
+    display: flex;
+    gap: 40px;
+    margin: 100px auto;
+    width: 990px;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+}
+/* container TV */
+.bg-tv{ 
+    width: 100%;
+    position: relative;
+    margin-bottom: 400px;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%;
+}
+.video{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 90px;
+}
+.tv{
+    position: absolute;
+}
+section{
+    border-bottom: 8px solid gray;
+}
+.heading{
+    font-size: 55px;
+}
+.sub-head{
+    font-size: 20px;
+    font-weight: 200;
+}
