@@ -23,9 +23,8 @@ body{
     left: 0;
 }
 .nav{
+    width: 990px;
     position: absolute;
-    width: 1219px;
-    height: 120px;
     align-items: center;
     top: 6%;
     left: 50%;
@@ -50,8 +49,7 @@ body{
     gap: 24px;
 } */
 .lang-btn{
-    width: 122px;
-    height: 32px;
+    padding: 9px 16px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,8 +62,7 @@ body{
     position: relative;
 }
 .login-btn{
-    width: 73px;
-    height: 32px;
+    padding: 9px 26px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -130,6 +127,7 @@ body{
     display: flex;
     gap: 8px;
     justify-content: center;
+    margin-bottom: 20px;
 }
 .mt{
     margin-top: 4px;
@@ -140,10 +138,9 @@ body{
 .container{
     color: white;
     display: flex;
-    gap: 40px;
+    gap: 20px;
     margin: 100px auto;
     width: 990px;
-    height: 70vh;
     justify-content: center;
     align-items: center;
 }
@@ -151,7 +148,7 @@ body{
 .bg-tv{ 
     width: 100%;
     position: relative;
-    margin-bottom: 400px;
+    /* margin-bottom: 400px; */
 }
 .left{
     width: 50%;
@@ -161,19 +158,145 @@ body{
 }
 .video{
     position: absolute;
-    margin-left: 80px;
-    margin-top: 90px;
+    width: 75%;
+    object-fit: contain;
+    height: 94%;
+    margin-left: 64px;
 }
 .tv{
-    position: absolute;
+    position: relative;
+    width: 100%;
 }
 section{
     border-bottom: 8px solid gray;
 }
 .heading{
-    font-size: 55px;
+    font-size: 38px;
 }
 .sub-head{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 200;
+}
+.section-two-left{
+    width: 50%;
+}
+.mob-img{
+    position: relative;
+}
+.block{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 6px; */
+    width: 280px;
+    border-radius: 12px;
+    padding: 6px 16px;
+    border: 2px solid lightslategray;
+    background-color: black;
+    align-items: center;
+    margin-left: -42px;
+    margin-top: -42px;
+}
+.movie-title{
+    text-align: center;
+    align-items: center;
+}
+.title{
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+}
+.download{
+    font-size: 18px;
+    color: rgb(42, 42, 221);
+}
+.stranger-cover{
+    height: 5rem;
+}
+.load{
+    width: 16%;
+}
+.mob{
+    width: 50%;
+}
+.tv2{
+    position: relative;
+    width: 90%;
+}
+.bg-tv2{
+    width: 100%;
+    position: relative;
+}
+.video1{
+    position: absolute;
+    width: 56%;
+    object-fit: contain;
+    height: 70%;
+    margin-left: 82px;
+}
+.children-img{
+    width: 100%;
+}
+.container-faq{
+    width: 990px;
+    background-color: black;
+    text-align: center;
+    margin: 10px auto;
+}
+.faq-title{
+    color: white;
+    font-size: 52px;
+    font-weight: bold;
+}
+.faq-one{
+    background-color: rgba(51, 49, 49, 0.781);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+}
+.question{
+    font-size: 28px;
+    color: white;
+    margin-left: 28px;
+}
+.mr{
+    margin-right: 28px;
+}
+.membership{
+    color: white;
+    margin-top: 40px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.get-btn-flex{
+    display: flex;
+    align-items: center;
+}
+.footer{
+    width: 990px;
+    margin: 60px auto;
+}
+.contact{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: rgba(245, 238, 238, 0.74);
+}
+.number{
+    color: rgba(245, 238, 238, 0.74);
+}
+.quick-view{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 990px;
+    margin-left: -32px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
 }
